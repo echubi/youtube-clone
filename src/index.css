@@ -59,9 +59,7 @@ body {
   height: 34px;
   padding-left: 10px;
   font-size: 16px;
-  border-width: 1px;
-  border-style: solid;
-  border-color: rgb(192, 192, 192);
+  border: 1px solid rgb(192, 192, 192);
   border-top-left-radius: 17px;
   border-bottom-left-radius: 17px;
   box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.05);
@@ -256,6 +254,23 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 16px;
   row-gap: 40px;
+}
+
+@media (max-width: 750px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 751px) and (max-width: 999px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
 
 .video-time {
