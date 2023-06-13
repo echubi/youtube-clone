@@ -3,7 +3,6 @@ import youtube_logo from "./images/youtube_logo.svg";
 import search from "./images/search.svg";
 import voice_search from "./images/voice-search-icon.svg";
 import upload from "./images/upload.svg";
-import youtube_app from "./images/youtube_apps.svg";
 import notification from "./images/notifications.svg";
 import current_user_picture from "./images/channel-pictures/my-channel.jpeg";
 
